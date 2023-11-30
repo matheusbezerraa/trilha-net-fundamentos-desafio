@@ -10,10 +10,8 @@ namespace Sistema_Estacionamento
     {
         static void Main(string[] args)
         {
-            // Criar uma instância de Estacionamento
             Estacionamento estacionamento = new Estacionamento();
 
-            // Chamar o método ExibirMenu
             estacionamento.ExibirMenu();
         }
     }
